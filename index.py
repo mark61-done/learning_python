@@ -3,6 +3,10 @@
 # A variable can store any data eg number, name, mathematical values
 
 # Assigning values to variables in python
+
+greetings = "Hello World!"
+print(greetings)
+
 name = "John Doe"
 age = 30
 
