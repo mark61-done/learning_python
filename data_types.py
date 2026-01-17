@@ -4,22 +4,22 @@
 first = 'Marko'
 last = 'Oloo'
 
-# print(type(first))
-# print(type(first)==str)
-# print(isinstance(first, str))
+print(type(first))
+print(type(first)==str)
+print(isinstance(first, str))
 
 #constructor function
-# pizza = str('peperoni')
-# print(type(pizza))
-# print(type(pizza)==str)
-# print(isinstance(pizza, str))
+pizza = str('peperoni')
+print(type(pizza))
+print(type(pizza)==str)
+print(isinstance(pizza, str))
 
 #concatenation
-# fullname = first + " " + last
-# print(fullname)
+fullname = first + " " + last
+print(fullname)
 
-# fullname += "!"
-# print(fullname)
+fullname += "!"
+print(fullname)
 
 # casting a number to a string
 decade = str(1980)

@@ -10,4 +10,5 @@ print(line03)
 print(line02)
 print(line01)
 
-
+sentence= "my  name is mark and i am software developer"
+print(sentence[3:8])
