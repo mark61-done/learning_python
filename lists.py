@@ -72,6 +72,21 @@ print(sorted(nums, reverse=True)) #This is a gloabal aproach or a gloabal functi
 
 print(nums) #After the gloabal aproach when we print nums now it will go back to how the list was before it was modified with the gloabal aproach
 
+#there are different ways of making copies of lists. Here we have used three different ways.
+numscopy = nums.copy() #This will make a copy of the list.
+mynums = list(nums) #This will make a copy of the list.
+mycopy = nums[:] #This will make a copy of the list.
+
+print(numscopy)
+print(mynums)
+mycopy.sort() #Here we have tried to sort it just to see the difference.
+print(mycopy)
+print(nums)
+
+print(type(nums)) #Here we are checking the type of list.
+
+mylist = list([1,"Neil",True]) #This is another way of creating a list.
+print(mylist)
 
 
 

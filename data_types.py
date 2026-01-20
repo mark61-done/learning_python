@@ -45,6 +45,7 @@ sentence = 'I\'m back at work!\tHey!\nWhere\'s this at\\located'
 print(sentence)
 
 # String methods
+#methods are functions inside a class they are used to modify or manipulate data.
 print(first)
 print(first.lower()) #.lower() method is used to chenge the whole sentence to be at lower case.
 print(first.upper()) #.upper() method is used to chenge the whole sentence to be at upper case.
