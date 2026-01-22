@@ -40,7 +40,7 @@ print(users)
 users.remove("Bob") #This will remove Bob from the list.
 print(users)
 
-users.pop() #This removes the last user in the list
+users.pop() #This removes the last user in the list but when an index is given it will remove the user at that index.
 print(users)
 
 del users[-1] #We can also use the del key word to delete a user from the list.
@@ -88,7 +88,9 @@ print(type(nums)) #Here we are checking the type of list.
 mylist = list([1,"Neil",True]) #This is another way of creating a list.
 print(mylist)
 
+#membership (in) checks if a number is in a list
 
+print(73 in nums) #This will return true since 73 is in the list of nums.
 
 
 
