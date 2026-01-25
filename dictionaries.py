@@ -72,7 +72,7 @@ band = {
 band2 = band.copy() #This will copy the dictionary band to band2
 print(band2)
 
-band3 = dict(band) #This will also copy the dictionary band to band3
+band3 = dict(band) #This will also copy the dictionary band to band3 this is a constructor method
 print(band3)
 
 # #This is not a copy but a reference to the original dictionary
@@ -96,5 +96,34 @@ myband = {
 }
 print(myband) #This will print the nested dictionary
 print(myband["band1"]) #This will print the dictionary of band1
+print(myband["band2"]["guiter"]) #This will print eddie
 
+#Another way to create nested dictionaries
+member1 ={
+    "name": "Mark",
+    "age": 30
+}
+member2 ={
+    "name": "John",
+    "age": 25
+}
+myband2 = {
+    "band1": member1,
+    "band2": member2
+}
+print(myband2) #This will print the nested dictionary
+print(myband2["band1"]["name"]) #This will print Mark
+print(myband2["band2"]["age"]) #This will print 25
 
+#Dictionary methods
+print(band.keys()) #This will print all the keys in the dictionary
+print(band.values()) #This will print all the values in the dictionary
+print(band.items()) #This will print all the key value pairs in the dictionary as tuples
+print(band.get("vacals")) #This will print plant
+print(band.copy()) #This will copy the dictionary band to a new dictionary
+print(band.clear()) #This will empty the dictionary
+print(band.popitem()) #This will remove the last inserted key value pair and returns it as a tuple
+print(band.setdefault("drums", "bonham")) #This will add a new key value pair to the dictionary if the key does not exist and return the value of the key
+print(band.update({"drums": "bonham"})) #This will add a new key value pair to the dictionary or update the value if the key already exists
+print(band.pop("drums")) #This will remove the key value pair with the key drums and return the value
+print(len(band)) #This will print the length of the dictionary
