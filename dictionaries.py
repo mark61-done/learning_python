@@ -1,5 +1,7 @@
 #Dictionaries
 #A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+#dictionaries are indexed by keys, which can be of any immutable type such as strings, numbers or tuples.
+
 
 #Creating a dictionary
 band = {
@@ -13,6 +15,11 @@ print(band) #This will print the dictionary
 print(band2) #This will print the dictionary
 print(type(band)) #This will print the type of the variable band which is a dictionary
 print(len(band)) #This will print the length of the dictionary which is 2 since there are two key value pairs in the dictionary
+
+#is dictionary indexed or unindexed?
+#Dictionaries are indexed by keys, which can be of any immutable type such as strings, numbers or tuples.
+#So we can access the values in a dictionary using their keys.
+
 
 #Access items in a dictionary
 print(band["vacals"]) #This will print plant
@@ -127,3 +134,5 @@ print(band.setdefault("drums", "bonham")) #This will add a new key value pair to
 print(band.update({"drums": "bonham"})) #This will add a new key value pair to the dictionary or update the value if the key already exists
 print(band.pop("drums")) #This will remove the key value pair with the key drums and return the value
 print(len(band)) #This will print the length of the dictionary
+
+
